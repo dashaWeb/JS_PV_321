@@ -104,3 +104,10 @@ for (const key in ford) {
 }
 
 Object.keys(ford).forEach((x)=>console.log(x))
+
+function print(obj)
+{
+    console.log(obj)
+}
+
+print(ford)

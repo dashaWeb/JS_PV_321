@@ -104,3 +104,14 @@ console.log(res.substring(0,3))
 let text = " text ";
 console.log(text.trim())
 console.log(text.trim().length)
+
+
+let arr = [4,5,8,7,4,5,6,5,8]
+console.log(arr);
+let res2 = arr.map((numb) => {
+    return {number:numb};
+})
+console.log(res2) ;
+
+let res3 = arr.filter((numb) => numb % 2 == 0);
+console.log(res3)

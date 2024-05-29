@@ -115,3 +115,5 @@ console.log(res2) ;
 
 let res3 = arr.filter((numb) => numb % 2 == 0);
 console.log(res3)
+
+arr.find()
